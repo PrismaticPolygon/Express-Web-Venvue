@@ -79,6 +79,16 @@ describe('Test the people service', () => {
             .expect(400);
     });
 
+    test('POST /people requires the right fields replicate', () => {
+        return request(app)
+            .post('/people')
+            .set('access_token', 'concertina')
+            .set('test', '123123')
+            .set('forename', 'Bob')
+            .set('surname', 'Builder')
+            .expect(400);
+    });
+
     test('POST /people creates a new user', () => {
 
         request(app)
@@ -95,3 +105,5 @@ describe('Test the people service', () => {
     });
 
 });
+
+app.close();
