@@ -1,7 +1,10 @@
 'use strict';
 
 const request = require('supertest');
-const app = require('./app.js');
+const fs = require('fs');
+
+const app = require('../app');
+
 
 function checkDeliaDerbyshire(res)
 {
@@ -23,6 +26,20 @@ function checkDeliaDerbyshire(res)
 
 describe('Test the people service', () => {
 
+    let people;
+
+    beforeEach(() => {
+
+        people = JSON.parse(fs.readFileSync("./data/people.json"));
+
+    });
+
+    afterEach(() => {
+
+        fs.writeFileSync("./data/people.json", JSON.stringify(people, null, 2), 'utf8');
+
+    });
+
     test('GET /people succeeds', () => {
         return request(app)
             .get('/people')
@@ -30,9 +47,11 @@ describe('Test the people service', () => {
     });
 
     test('GET /people returns JSON', () => {
+
         return request(app)
             .get('/people')
             .expect('Content-type', /json/);
+
     });
 
     test('GET /people includes doctorwhocomposer', () => {
@@ -63,45 +82,40 @@ describe('Test the people service', () => {
     test('POST /people needs access_token', () => {
         return request(app)
             .post('/people')
-            .set('username', 'bobthebuilder')
-            .set('forename', 'Bob')
-            .set('surname', 'Builder')
             .expect(403);
     });
 
     test('POST /people cannot replicate', () => {
-        return request(app)
-            .post('/people')
-            .set('access_token', 'concertina')
-            .set('username', 'doctorwhocomposer')
-            .set('forename', 'Bob')
-            .set('surname', 'Builder')
-            .expect(400);
-    });
 
-    test('POST /people requires the right fields replicate', () => {
+        const params = {
+            username: 'doctorwhocomposer',
+            forename: 'Bob',
+            surname: 'Builder'
+        };
+
         return request(app)
             .post('/people')
-            .set('access_token', 'concertina')
-            .set('test', '123123')
-            .set('forename', 'Bob')
-            .set('surname', 'Builder')
+            .set("Content-Type", "application/json")
+            .set("access_token", "concertina")
+            .send(JSON.stringify(params))
             .expect(400);
     });
 
     test('POST /people creates a new user', () => {
 
-        request(app)
-            .post('/people')
-            .set('access_token', 'concertina')
-            .set('username', 'bob')
-            .set('forename', 'Bob')
-            .set('surname', 'Builder')
-            .expect(400);
+        const params = {
+            username: 'bob',
+            forename: 'Bob',
+            surname: 'Builder'
+        };
 
         return request(app)
-            .get('/people/bob')
-            .expect(200);
+            .post('/people')
+            .set("Content-Type", "application/json")
+            .set("access_token", "concertina")
+            .send(JSON.stringify(params))
+            .expect(201);
+
     });
 
 });

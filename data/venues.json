@@ -1,0 +1,55 @@
+[{
+  "capacity": 100,
+  "location": {
+    "latitude": 54.7759984,
+    "longitude": -1.5761528
+  },
+  "name": "Klute",
+  "venueID": "15d6c7cf-fc41-4e5f-b7d3-71198814d228",
+  "userID": "e73de29a-66d1-4fed-861a-862f6bb1971c"
+}, {
+  "capacity": 500,
+  "location": {
+    "latitude": 54.7772503,
+    "longitude": -1.5787726
+  },
+  "name": "Wiff Waff",
+  "venueID": "e904d1b4-def6-4d0b-9a0f-8c88d1dfafd9",
+  "userID": "e73de29a-66d1-4fed-861a-862f6bb1971c"
+}, {
+  "capacity": 200,
+  "location": {
+    "latitude": 54.7761246,
+    "longitude": -1.5763708
+  },
+  "name": "Jimmy Allens",
+  "venueID": "9efdd584-7088-4aa7-9618-506127daba84",
+  "userID": "e73de29a-66d1-4fed-861a-862f6bb1971c"
+}, {
+  "capacity": 1000,
+  "location": {
+    "latitude": 54.7776981,
+    "longitude": -1.5775439
+  },
+  "name": "Players' Bar",
+  "venueID": "d467653d-4164-4d67-8234-2281fb0a0e6e",
+  "userID": "2270cb15-2856-4fc6-b1b3-07f826764d11"
+}, {
+  "capacity": 600,
+  "location": {
+    "latitude": 54.7760304,
+    "longitude": -1.5766004
+  },
+  "name": "Osbournes",
+  "venueID": "4fc20270-55ff-456f-b2f7-ae64a8a5c356",
+  "userID": "2270cb15-2856-4fc6-b1b3-07f826764d11"
+}, {
+  "capacity": 800,
+  "location": {
+    "latitude": 54.776922,
+    "longitude": -1.5829162
+  },
+  "name": "Loft",
+  "venueID": "255854d6-b0be-4fa3-a490-190c4672ff12",
+  "userID": "2270cb15-2856-4fc6-b1b3-07f826764d11"
+}]

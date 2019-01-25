@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Sunday Night Klute",
+    "attendance": 23,
+    "venueID": "15d6c7cf-fc41-4e5f-b7d3-71198814d228",
+    "eventID": "14f86883-90dd-4710-8c6e-0aad132204f4",
+    "venue": {
+      "capacity": 100,
+      "location": {
+        "latitude": 54.7759984,
+        "longitude": -1.5761528
+      },
+      "name": "Klute",
+      "venueID": "15d6c7cf-fc41-4e5f-b7d3-71198814d228",
+      "userID": "e73de29a-66d1-4fed-861a-862f6bb1971c"
+    },
+    "start": "2019-01-25T23:00:13.074Z",
+    "end": "2019-01-26T00:00:13.074Z",
+    "icon": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 60 60\"><title>=\"undefined\"</title><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#e6e6e6\" stroke-width=\"6\" /><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#27CD02\" stroke-width=\"6\" stroke-dasharray=\"169.64600329384882\" stroke-dashoffset=\"130.6274225362636\" stroke-linecap=\"round\" transform=\"rotate(-90 30 30)\"/></svg>"
+  },
+  {
+    "name": "Shakermaker @ Wiff Waff w/Mustard Yellow - Free Entry",
+    "attendance": 57,
+    "venueID": "e904d1b4-def6-4d0b-9a0f-8c88d1dfafd9",
+    "eventID": "8d2dff7b-21c7-408a-927f-ce1f826eafff",
+    "venue": {
+      "capacity": 500,
+      "location": {
+        "latitude": 54.7772503,
+        "longitude": -1.5787726
+      },
+      "name": "Wiff Waff",
+      "venueID": "e904d1b4-def6-4d0b-9a0f-8c88d1dfafd9",
+      "userID": "e73de29a-66d1-4fed-861a-862f6bb1971c"
+    },
+    "start": "2019-01-25T22:00:13.074Z",
+    "end": "2019-01-26T14:00:13.074Z",
+    "icon": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 60 60\"><title>=\"undefined\"</title><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#e6e6e6\" stroke-width=\"6\" /><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#02C517\" stroke-width=\"6\" stroke-dasharray=\"169.64600329384882\" stroke-dashoffset=\"150.30635891835007\" stroke-linecap=\"round\" transform=\"rotate(-90 30 30)\"/></svg>"
+  },
+  {
+    "name": "UV Party",
+    "attendance": 67,
+    "venueID": "9efdd584-7088-4aa7-9618-506127daba84",
+    "eventID": "9b0d095e-515e-4402-b955-db7a77fcd743",
+    "venue": {
+      "capacity": 200,
+      "location": {
+        "latitude": 54.7761246,
+        "longitude": -1.5763708
+      },
+      "name": "Jimmy Allens",
+      "venueID": "9efdd584-7088-4aa7-9618-506127daba84",
+      "userID": "e73de29a-66d1-4fed-861a-862f6bb1971c"
+    },
+    "start": "2019-01-25T16:00:13.075Z",
+    "end": "2019-01-26T06:00:13.075Z",
+    "icon": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 60 60\"><title>=\"undefined\"</title><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#e6e6e6\" stroke-width=\"6\" /><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#5BD402\" stroke-width=\"6\" stroke-dasharray=\"169.64600329384882\" stroke-dashoffset=\"112.81459219040947\" stroke-linecap=\"round\" transform=\"rotate(-90 30 30)\"/></svg>"
+  },
+  {
+    "name": "Crowd 9 Presents 'All of the Lights' - KANYE WEST Special",
+    "attendance": 694,
+    "venueID": "d467653d-4164-4d67-8234-2281fb0a0e6e",
+    "eventID": "c4a6fcce-0354-4a31-bf0a-55c8d04572a3",
+    "venue": {
+      "capacity": 1000,
+      "location": {
+        "latitude": 54.7776981,
+        "longitude": -1.5775439
+      },
+      "name": "Players' Bar",
+      "venueID": "d467653d-4164-4d67-8234-2281fb0a0e6e",
+      "userID": "2270cb15-2856-4fc6-b1b3-07f826764d11"
+    },
+    "start": "2019-01-25T21:00:13.075Z",
+    "end": "2019-01-26T11:00:13.075Z",
+    "icon": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 60 60\"><title>=\"undefined\"</title><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#e6e6e6\" stroke-width=\"6\" /><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#ECA701\" stroke-width=\"6\" stroke-dasharray=\"169.64600329384882\" stroke-dashoffset=\"51.911677007917746\" stroke-linecap=\"round\" transform=\"rotate(-90 30 30)\"/></svg>"
+  },
+  {
+    "name": "Northen Psychic",
+    "attendance": 575,
+    "venueID": "4fc20270-55ff-456f-b2f7-ae64a8a5c356",
+    "eventID": "3f15b5cd-5795-493b-bfb6-4ba2e86af4ac",
+    "venue": {
+      "capacity": 600,
+      "location": {
+        "latitude": 54.7760304,
+        "longitude": -1.5766004
+      },
+      "name": "Osbournes",
+      "venueID": "4fc20270-55ff-456f-b2f7-ae64a8a5c356",
+      "userID": "2270cb15-2856-4fc6-b1b3-07f826764d11"
+    },
+    "start": "2019-01-25T20:00:13.075Z",
+    "end": "2019-01-25T23:00:13.075Z",
+    "icon": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 60 60\"><title>=\"undefined\"</title><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#e6e6e6\" stroke-width=\"6\" /><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#FD1400\" stroke-width=\"6\" stroke-dasharray=\"169.64600329384882\" stroke-dashoffset=\"7.068583470577028\" stroke-linecap=\"round\" transform=\"rotate(-90 30 30)\"/></svg>"
+  },
+  {
+    "name": "Gospel",
+    "attendance": 726,
+    "venueID": "255854d6-b0be-4fa3-a490-190c4672ff12",
+    "eventID": "57998180-d4b0-4bf4-93ee-8b23b0bac718",
+    "venue": {
+      "capacity": 800,
+      "location": {
+        "latitude": 54.776922,
+        "longitude": -1.5829162
+      },
+      "name": "Loft",
+      "venueID": "255854d6-b0be-4fa3-a490-190c4672ff12",
+      "userID": "2270cb15-2856-4fc6-b1b3-07f826764d11"
+    },
+    "start": "2019-01-25T20:00:13.076Z",
+    "end": "2019-01-26T03:00:13.076Z",
+    "icon": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 60 60\"><title>=\"undefined\"</title><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#e6e6e6\" stroke-width=\"6\" /><circle cx=\"30\" cy=\"30\" r=\"27\" fill=\"none\" stroke=\"#FA2C00\" stroke-width=\"6\" stroke-dasharray=\"169.64600329384882\" stroke-dashoffset=\"15.692255304681021\" stroke-linecap=\"round\" transform=\"rotate(-90 30 30)\"/></svg>"
+  }
+]
